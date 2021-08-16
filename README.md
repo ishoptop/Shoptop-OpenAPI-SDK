@@ -291,12 +291,12 @@ data|array|data|v1
 └─canceledAt|string|订单取消时间|v1
 └─cancelReason|string|订单取消原因|v1
 └─orderNote|string|订单备注|v1
-└─fulfillmentStatus|string|物流状态 initialled(空)，waiting(待发货)，partially_shipped(部分发货)，shipped(已发货)，partially_finished(部分完成)，finished(已完成), cancelled(取消)，returning(退货中)，returned(已退货)|v1,v1
+└─fulfillmentStatus|string|物流状态 initialled(空)，waiting(待发货)，partially_shipped(部分发货)，shipped(已发货)，partially_finished(部分完成)，finished(已完成), cancelled(取消)，returning(退货中)，returned(已退货)|v1
 └─customerDeletedAt|string|客户删除订单时间|v1
-└─placedAt|string|订单确认时间|v1,v1
+└─placedAt|string|订单确认时间|v1
 └─tags|string|订单标签|v1
 └─discountCode|string|订单优惠码|v1
-└─codeDiscountTotal|string|订单优惠码优惠价格|v1,v1
+└─codeDiscountTotal|string|订单优惠码优惠价格|v1
 └─lineItemDiscountTotal|string|商品折扣|v1
 └─customerNote|string|客户备注|v1
 └─totalDiscount|string|订单折扣|v1
@@ -304,7 +304,7 @@ data|array|data|v1
 └─totalShipping|string|运费|v1
 └─createdAt|string|创建时间|v1
 └─updatedAt|string|更新时间|v1
-└─lineItems|array|订单商品|v1,v1
+└─lineItems|array|订单商品|v1
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─productTitle|string|商品标题|v1
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─variantTitle|string|子商品标题|v1
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─quantity|number|商品数量|v1
@@ -567,12 +567,12 @@ data|object|data|v1
 └─canceledAt|string|订单取消时间|v1
 └─cancelReason|string|订单取消原因|v1
 └─orderNote|string|订单备注|v1
-└─fulfillmentStatus|string|物流状态 initialled(空)，waiting(待发货)，partially_shipped(部分发货)，shipped(已发货)，partially_finished(部分完成)，finished(已完成), cancelled(取消)，returning(退货中)，returned(已退货)|v1,v1
+└─fulfillmentStatus|string|物流状态 initialled(空)，waiting(待发货)，partially_shipped(部分发货)，shipped(已发货)，partially_finished(部分完成)，finished(已完成), cancelled(取消)，returning(退货中)，returned(已退货)|v1
 └─customerDeletedAt|string|客户删除订单时间|v1
-└─placedAt|string|订单确认时间|v1,v1
+└─placedAt|string|订单确认时间|v1
 └─tags|string|订单标签|v1
 └─discountCode|string|订单优惠码|v1
-└─codeDiscountTotal|string|订单优惠码优惠价格|v1,v1
+└─codeDiscountTotal|string|订单优惠码优惠价格|v1
 └─lineItemDiscountTotal|string|商品折扣|v1
 └─customerNote|string|客户备注|v1
 └─totalDiscount|string|订单折扣|v1
@@ -580,7 +580,7 @@ data|object|data|v1
 └─totalShipping|string|运费|v1
 └─createdAt|string|创建时间|v1
 └─updatedAt|string|更新时间|v1
-└─lineItems|array|订单商品|v1,v1
+└─lineItems|array|订单商品|v1
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─productTitle|string|商品标题|v1
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─variantTitle|string|子商品标题|v1
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─quantity|number|商品数量|v1
@@ -896,12 +896,12 @@ data|object|data|v1
 └─canceledAt|string|订单取消时间|v1
 └─cancelReason|string|订单取消原因|v1
 └─orderNote|string|订单备注|v1
-└─fulfillmentStatus|string|物流状态 initialled(空)，waiting(待发货)，partially_shipped(部分发货)，shipped(已发货)，partially_finished(部分完成)，finished(已完成), cancelled(取消)，returning(退货中)，returned(已退货)|v1,v1
+└─fulfillmentStatus|string|物流状态 initialled(空)，waiting(待发货)，partially_shipped(部分发货)，shipped(已发货)，partially_finished(部分完成)，finished(已完成), cancelled(取消)，returning(退货中)，returned(已退货)|v1
 └─customerDeletedAt|string|客户删除订单时间|v1
-└─placedAt|string|订单确认时间|v1,v1
+└─placedAt|string|订单确认时间|v1
 └─tags|string|订单标签|v1
 └─discountCode|string|订单优惠码|v1
-└─codeDiscountTotal|string|订单优惠码优惠价格|v1,v1
+└─codeDiscountTotal|string|订单优惠码优惠价格|v1
 └─lineItemDiscountTotal|string|商品折扣|v1
 └─customerNote|string|客户备注|v1
 └─totalDiscount|string|订单折扣|v1
@@ -909,7 +909,7 @@ data|object|data|v1
 └─totalShipping|string|运费|v1
 └─createdAt|string|创建时间|v1
 └─updatedAt|string|更新时间|v1
-└─lineItems|array|订单商品|v1,v1
+└─lineItems|array|订单商品|v1
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─productTitle|string|商品标题|v1
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─variantTitle|string|子商品标题|v1
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─quantity|number|商品数量|v1
